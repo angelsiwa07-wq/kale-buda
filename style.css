@@ -1,0 +1,28 @@
+
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:linear-gradient(#ffd6e7,#fff0f6);
+color:#5a2940;
+text-align:center;
+overflow-x:hidden;
+}
+.hero{padding:80px 20px;}
+.card,.letter{
+background:white;
+margin:20px auto;
+padding:25px;
+max-width:800px;
+border-radius:20px;
+box-shadow:0 4px 15px rgba(0,0,0,.1);
+}
+h1{font-size:3em;}
+.heart{
+position:fixed;
+font-size:20px;
+animation:float 8s linear infinite;
+}
+@keyframes float{
+from{transform:translateY(100vh);opacity:1}
+to{transform:translateY(-20vh);opacity:0}
+}
